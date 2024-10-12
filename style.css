@@ -1,0 +1,86 @@
+        body{
+            margin: 0px;
+            padding: 0px;
+            background: url(image/pg.jpg);
+        }
+        .left{
+          display: inline-block;
+          position: absolute;
+            left: 60px;
+            top: 22px;
+        }
+        .left img{
+            width: 65px;
+            border-radius:12px;
+           
+        }
+        .left div{
+            line-height: 19px;
+            text-align: center;
+        }
+        .mid{
+            display: block;
+            width: 33%;
+            margin: 20px auto;
+        }
+        .right{
+            position: absolute;
+            right: 34px;
+            top: 20px;
+            display: inline-block;
+            
+        }
+        .navbar{
+            display: inline-block;
+        }
+        .navbar li{
+            display: inline-block;
+            font-size: 19px;
+        }
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 1px 2px;
+        }
+        .navbar li a:hover, .navbar a.active {
+            text-decoration: underline;
+            color: aquamarine;
+        }
+        .btn{
+            margin: 0px 9px;
+            color: white;
+            background-color: black;
+            padding: 4px 14px;
+            border: 2px solid grey;
+            border-radius: 12px;
+            font-size: 12px;
+            cursor: pointer;
+        }
+        .btn:hover{
+            background-color: brown;
+        }
+        .container{
+            margin: 98px 73px;
+            padding:41px;
+            width: 31%;
+            border-radius: 28px;
+        }
+        .form-group input{
+            text-align: center;
+            display: block;
+            width: 300px;
+            padding: 6px;
+            margin: 6px auto;
+            border-radius: 12px;
+        }
+        .container h1{
+           text-align: center;
+
+        }
+        .container button{
+         display: block;
+        width: 23%;
+        margin: auto;
+        cursor: pointer;
+        }
+   
